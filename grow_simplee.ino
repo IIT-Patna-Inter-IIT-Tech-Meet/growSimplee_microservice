@@ -1,5 +1,8 @@
 #pragma once
-#include "wifi_code.h"
+#include "src/wifi/wifi_code.h"
+#include "src/ultrasonic/ultrasonic.h"
+#include "src/weight/weight_cell.h"
+#include "src/display/display.h"
 
 void setup() {
   // put your setup code here, to run once:
