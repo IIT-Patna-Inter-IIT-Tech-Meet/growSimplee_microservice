@@ -17,6 +17,7 @@
     - Create a new `.h` and `.cpp` file with the same name
     - include the `.h` file in `grow_simplee.ino` with relative path
     - include the `.h` file in corresponding `.cpp` file with relative path
+- User some text editor to edit the code, like `VS Code` or `vim`, you can't see the files in arduino IDE
 
 
 ## Modules
