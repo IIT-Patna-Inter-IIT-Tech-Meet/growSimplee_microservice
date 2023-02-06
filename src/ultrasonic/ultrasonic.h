@@ -10,5 +10,9 @@
 #define SOUND_SPEED 0.034
 #define CM_TO_INCH 0.393701
 
+#define CALIBRATE_HIGHT 40
+#define CALIBRATE_WIDTH 50
+#define CALIBRATE_LENGTH 60
+
 void setupUltrasonic();
 float capturedistance(int trig_pin, int echo_pin);

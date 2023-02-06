@@ -25,3 +25,7 @@
 - `ultrasonic` - Contains the code for ultrasonic sensor
 - `weight` - Contains the code for weight cell
 - `display` - Contains the code for `64x128` OLED display
+
+## Sub-Doc
+- [ESP_PIN_MAP](./PIN_MAP.md)
+- [Display_Module](./src/display/mini_doc.md)

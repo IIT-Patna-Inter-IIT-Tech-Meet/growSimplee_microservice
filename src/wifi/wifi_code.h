@@ -2,10 +2,11 @@
 #include <stdio.h>
 #include <WiFi.h>
 #include "HTTPClient.h"
+#include "../display/display.h"
 
 #define WIFI_SSID "private"
 #define WIFI_PASSWORD "123456789"
-#define API_ENDPOINT "http://172.16.12.9/api/v1/measurements"
+#define API_ENDPOINT "http://192.168.215.30:5000/package/record-dimensions"
 
 void setup_wifi();
 void connect_wifi();    // Connect to wifi
