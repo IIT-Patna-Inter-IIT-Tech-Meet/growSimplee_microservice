@@ -1,5 +1,4 @@
 # ESP32 code for GrowSimplee [PS: Part 1]
-# 
 
 ## Running instructions
 - Open this project in Arduino IDE
@@ -35,3 +34,6 @@
 ## Sub-Doc
 - [ESP_PIN_MAP](./PIN_MAP.md)
 - [Display_Module](./src/display/mini_doc.md)
+
+### Model Media
+- [Google_Drive](https://drive.google.com/drive/folders/1psJaE7uJUwPQX8I87WRMK0AYSqLt9hJJ?usp=sharing)
