@@ -10,7 +10,7 @@ void setupUltrasonic(){
     Serial.println(": LOG : Ultrasonic setup complete");
 }
 
-float capturedistance(int trig_pin, int echo_pin){
+float capturedistance(uint8_t trig_pin, uint8_t echo_pin){
     long duration;
     float distanceCm;
 

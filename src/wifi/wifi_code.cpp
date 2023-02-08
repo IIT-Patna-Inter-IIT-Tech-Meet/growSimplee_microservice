@@ -8,17 +8,6 @@ void setup_wifi(){
   // OLEDdisplay.println("WIFI STA");
 }
 
-std::string to_string(int x) {
-    std::string y;
-    do {
-        y += (x % 10) + '0';
-        x /= 10;
-    } while (x);
-    std::reverse(y.begin(), y.end());
-    return y;
-}
-
-
 // Connect to specified wifi network
 void connect_wifi(){
   WiFi.begin(WIFI_SSID, WIFI_PASSWORD);

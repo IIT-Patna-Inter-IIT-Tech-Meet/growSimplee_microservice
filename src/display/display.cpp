@@ -40,6 +40,15 @@ void logmsg(std::string msg, std::string level, int mode){
 
 }
 
+// void bulkmsg(std::vector<std::string> msgs){
+//     OLEDdisplay.clearDisplay();
+//     OLEDdisplay.setCursor(0,10);
+//     for ( auto msg: msgs){
+//         OLEDdisplay.println(msg);
+//     }
+
+// }
+
 void flashmsg(){
     OLEDdisplay.clearDisplay();
     OLEDdisplay.setCursor(0,10);

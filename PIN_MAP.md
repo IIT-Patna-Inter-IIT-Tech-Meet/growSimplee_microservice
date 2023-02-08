@@ -9,8 +9,8 @@ bash
              SD2|                | P15
              P13|                | P2
              GND|                | P0
-             p12|                | P4
-             P14|                | P16
+             p12|                | P4  -> SCK
+             P14|                | P16 -> DOUT 
       T1 <-  P27|                | P17
       T2 <-  P26|                | P5
       T3 <-  P25|                | P18

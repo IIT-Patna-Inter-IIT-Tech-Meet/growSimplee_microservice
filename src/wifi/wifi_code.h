@@ -3,6 +3,7 @@
 #include <WiFi.h>
 #include "HTTPClient.h"
 #include "../display/display.h"
+#include "../utility/utility.h"
 
 #define WIFI_SSID "private"
 #define WIFI_PASSWORD "123456789"
