@@ -4,6 +4,12 @@
 ## Running instructions
 - Open this project in Arduino IDE
 - Install the ESP32 board in Arduino IDE
+- Install dependencies
+    - HTTPClient
+    - WiFi
+    - Esp32Servo
+    - Adafruit_SSD1306
+    - Adafruit_GFX
 - Select the board as ESP32 Dev Module
 - Select the port
 - Complile
