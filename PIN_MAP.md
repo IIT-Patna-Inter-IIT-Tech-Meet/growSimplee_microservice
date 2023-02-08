@@ -11,15 +11,15 @@ bash
              GND|                | P0
              p12|                | P4  -> SCK
              P14|                | P16 -> DOUT 
-      T1 <-  P27|                | P17
+      T1 <-  P27|                | P17 -> Servo 1
       T2 <-  P26|                | P5
       T3 <-  P25|                | P18
       E1 <-  P33|                | P19
       E2 <-  P32|                | GND
-      E3 <-  P35|                | P21 -> SDA
-             P34|                | RX
+      E3 <-  P35|                | P21 -> SDA X [ currently not in use]
+     LDR <-  P34|                | RX
              SUN|                | TX
-             SUP|                | P22 -> SCK
+             SUP|                | P22 -> SCK X [ currently not in use]
               EN|                | P23
              3V3|                | GND
                  ----------------

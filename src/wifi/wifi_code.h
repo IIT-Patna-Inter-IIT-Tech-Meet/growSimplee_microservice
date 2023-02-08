@@ -13,4 +13,4 @@ void setup_wifi();
 void connect_wifi();    // Connect to wifi
 void disconnect_wifi(); // Disconnect from wifi
 void print_wifi_status();
-void send_data();
+void send_data(float l, float b, float h, float w);

@@ -11,15 +11,15 @@ void setup_weight_cell(){
     Serial.println("Weight cell setup complete");
 }
 
-void set_calibrate_scale(){
-    if (scale.is_ready()){
+// void set_calibrate_scale(){
+//     if (scale.is_ready()){
         
-    }
-    else{
-        Serial.println("HX711 not found.");
-    }
-    delay(500);
-}
+//     }
+//     else{
+//         Serial.println("HX711 not found.");
+//     }
+//     delay(500);
+// }
 
 
 void get_calibration(){
@@ -40,6 +40,7 @@ void get_calibration(){
     }
     delay(1000);
 }
+
 float get_weight()
 {
     return scale.get_units(10);
